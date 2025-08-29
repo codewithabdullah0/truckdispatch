@@ -1,0 +1,110 @@
+.kamil-div1{
+height: 71vh;
+  background: linear-gradient(90deg, #171a1f 0%, #08090a 69.62%),
+    url(../Images/image\ 13.svg),
+    lightgray -32.434px 0px / 102.282% 100% no-repeat;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.kamil-div01{
+    overflow: hidden;
+}
+
+.kamil-pic1{
+    position: absolute;
+    bottom: -190px;
+}
+
+.kamil-svg1{
+    position: absolute;
+    top: -8px;
+    left: -18px;
+}
+
+
+
+
+
+
+
+
+.mission-div1{
+    padding-top: 95px;
+    /* padding-bottom: 100px; */
+}
+
+
+.mission-text1{
+color: #000;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 22px;
+}
+
+.mission-text2{
+    color: #313131;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+margin-top: 8px;
+padding-right: 35px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .kamil-div1{
+height: 92vh;
+    margin-bottom: 10px;
+    display: block;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.kamil-pic1 {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.kamil-svg1 {
+    position: absolute;
+    top: -35px;
+    left: -18px;
+}
+
+.mission-div1 {
+    padding-top: 70px;
+    /* padding-bottom: 100px; */
+}
+
+.kamil-profile-text11 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    margin-top: 25px;
+}
+
+.kamil-profile-text22 {
+    color: #dfdfdf;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+
+}

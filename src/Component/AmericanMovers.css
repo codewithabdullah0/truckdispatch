@@ -1,0 +1,127 @@
+.movers-maindiv1{
+overflow: hidden;
+}
+
+.movers-div1{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    /* padding-top: px; */
+    /* padding-bottom: 65px; */
+background: linear-gradient(to right, #fff 25%, #070707 20%);
+position: relative;
+/* overflow: hidden; */
+}
+
+.star-img-div1{
+    overflow: hidden;
+}
+
+.star-img-1{
+position: absolute;
+right: -10px;
+top: -30px;
+}
+
+.movers-img-div1{
+    padding-top: 65px; 
+    padding-bottom: 65px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #181B20;
+    transform: translateY(50px);
+}
+
+.movers-text1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 69px; /* 123.214% */
+}
+
+.movers-btn1{
+    width: 360px;
+height: 78px;
+flex-shrink: 0;
+background: #BE0B31;
+color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 35px;
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width: 1330px) { */
+    .movers-img-div1 div img{
+        width: 100%;
+        height: auto;
+    transform: translateX(-10px);
+
+    }
+
+
+
+
+@media screen and (max-width: 576px){
+
+.movers-div1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* padding-bottom: 65px; */
+    background: white;
+    /* background: linear-gradient(to right, #fff 25%, #070707 20%); */
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.usa-movers-div233{
+        /* background: linear-gradient(to right, #fff 20%, #070707 0%); */
+        background-color: #070707;
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+}
+
+.movers-img-div1 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #181B20;
+    transform: translateY(20px);
+}
+
+.movers-img-div1 div img{
+    width: 140%;
+    height: auto;
+    transform: translateX(-40px);
+}
+
+.movers-text1 {
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+}
+.movers-btn1 {
+    width: 280px;
+    height: 72px;
+    font-size: 24px;
+    margin-top: 25px;
+}
+}

@@ -1,0 +1,55 @@
+.kevin-text-div1{
+padding-top: 80px;
+}
+
+.kevin-text1{
+    color: #313131;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+}
+
+.kevin-text2{
+color: #313131;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+margin-top: 30px;
+}
+
+.kevin-text3{
+    color: #313131;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+margin-top: 30px;
+
+}
+
+.kevin-text4{
+    color: #313131;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+margin-top: 30px;
+
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+.kevin-text1, .kevin-text2, .kevin-text3, .kevin-text4{
+font-size: 18px;
+line-height: 32px; /* 180% */
+}
+
+}

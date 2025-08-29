@@ -1,0 +1,56 @@
+.shippers-divs11{
+padding-top: 75px;
+padding-bottom: 40px;
+}
+
+.truck-shippers-text4{
+    color: #000;
+font-family: Poppins;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 124.138% */
+margin-bottom: 0px;
+margin-left: 0px;
+margin-top: 27px;
+}
+
+.truck-shippers-textdiv1{
+    row-gap: 27px;
+}
+
+.truck-shippers-textdiv4{
+padding-right: 40px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+.shippers-divs11{
+padding-top: 370px;
+padding-bottom: 25px;
+}
+
+.truck-shippers-text4{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 124.138% */
+margin-bottom: 0px;
+margin-left: 0px;
+margin-top: 27px;
+}
+
+
+
+.truck-shippers-textdiv4{
+padding-right: 05px;
+}
+
+}

@@ -1,0 +1,146 @@
+.call-btn-div11{
+position: fixed;
+    bottom: calc(5% - 30px);
+    left: calc(2% - 45px);
+    display: block;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    opacity: .8;
+    transition: all .3s ease-in-out;
+    z-index: 999990!important;
+    transform-origin: 50% 50% 0;
+
+}
+
+.call-btn-div12{
+cursor: pointer;
+    width: 60px;
+    height: 60px;
+    top: 70px;
+    left: 70px;
+    position: absolute;
+    background-image: url(https://static.ringostat.net/callback/img/phone_icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 999993;
+    transform-origin: 50% 50% 0;
+}
+
+
+.call-btn-div13{
+        background: #1e22aa;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 65px;
+    top: 65px;
+    z-index: 999991;
+    border: 1px solid #1e22aa;
+    border-radius: 50%;
+    -webkit-animation: ringostat_pulse2 2.5s infinite ease-in-out;
+    -moz-animation: ringostat_pulse2 2.5s infinite ease-in-out;
+    -ms-animation: ringostat_pulse2 2.5s infinite ease-in-out;
+    -o-animation: ringostat_pulse2 2.5s infinite ease-in-out;
+    animation: ringostat_pulse2 2.5s infinite ease-in-out;
+    transform-origin: 50% 50% 0;
+}
+
+
+.call-btn-div14{
+    background: #1e22aa;
+    transform-origin: 50% 50% 0;
+}
+
+
+.call-btn-div15{
+        height: 120px;
+    width: 120px;
+    background: #1e22aa;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 999991;
+    -webkit-animation: ringostat_pulse 2.5s infinite ease-in-out;
+    -moz-animation: ringostat_pulse 2.5s infinite ease-in-out;
+    -ms-animation: ringostat_pulse 2.5s infinite ease-in-out;
+    -o-animation: ringostat_pulse 2.5s infinite ease-in-out;
+    animation: ringostat_pulse 2.5s infinite ease-in-out;
+    transform-origin: 50% 50% 0;
+}
+
+
+.call-btn-div16{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    border-radius: 50%;
+    z-index: 999992;
+    box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    -webkit-box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    -moz-box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    -ms-box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    -o-box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    box-shadow: 0 0 0 15px rgba(30,34,170,0);
+    -webkit-transition: box-shadow .8s ease-in-out;
+    -moz-transition: box-shadow .8s ease-in-out;
+    -ms-transition: box-shadow .8s ease-in-out;
+    -o-transition: box-shadow .8s ease-in-out;
+    transition: box-shadow .8s ease-in-out;
+    background: #1e22aa;
+    transform-origin: 50% 50% 0;
+}
+
+
+
+@keyframes ringostat_pulse {
+    0% {
+    transform: scale(0.5);
+    opacity: .3;
+}
+50% {
+    transform: scale(0.7);
+    opacity: .2;
+}
+100% {
+    transform: scale(0.5);
+    opacity: 0;
+}
+}
+
+
+
+
+@keyframes ringostat_pulse2 {
+0% {
+    transform: scale(2);
+    opacity: 0;
+}
+100% {
+    transform: scale(0.6);
+    opacity: .8;
+}
+}
+
+
+
+
+.scroll-to-top {
+    background-color: #FF1414 !important;
+    right: 40px;
+    bottom: 55px !important;
+    /* bottom: calc(5% - 15px) !important; */
+
+    position: fixed;
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 45px !important;
+    height: 45px !important;
+    box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+    border: none;
+}

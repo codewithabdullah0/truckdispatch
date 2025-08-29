@@ -1,0 +1,193 @@
+.about-div1{
+height: 75vh;
+  background: linear-gradient(90deg, #171a1f 0%, #08090a 69.62%),
+    url(../Images/image\ 13.svg),
+    lightgray -32.434px 0px / 102.282% 100% no-repeat;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    /* padding-top: 75px; */
+    margin-top: 75px;
+}
+
+.about-div01{
+    overflow: hidden;
+}
+
+.about-comp-text1{
+color: #FFF;
+font-family: Poppins;
+font-size: 82px;
+font-style: normal;
+font-weight: 700;
+line-height: 89px; /* 108.537% */
+}
+
+.about-comp-text2{
+    color: #DFDFDF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 180% */
+margin-top: 25px;
+}
+
+.about-svg1{
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+
+
+
+
+
+
+
+.about-profile-div1{
+padding-top: 250px;
+padding-bottom: 20px;
+}
+
+
+.about-profile-div2{
+background: #EEF9FF;
+width: 100%;
+/* height: 500px; */
+padding-left: 35px;
+padding-right: 35px;
+padding-bottom: 30px;
+flex-shrink: 0;
+position: relative;
+}
+
+.about-profile-pic1{
+/* position: absolute;
+top: -250px; */
+margin-top: -175px;
+}
+
+
+.about-profile-textdiv1{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 35px;
+}
+
+.about-profile-text1{
+color: #000;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+/* line-height: normal; */
+}
+
+.about-profile-text2{
+color: #404040;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+/* line-height: normal; */
+}
+
+.about-profile-text3{
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .about-comp-text1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.about-div1 {
+    height: 90vh;
+    background: linear-gradient(90deg, #171a1f 0%, #08090a 69.62%), url(http://localhost:3000/static/media/image%2013.9125a9d….svg), lightgray -32.434px 0px / 102.282% 100% no-repeat;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.kamil-div3 div img{
+    width: 130%;
+    transform:translateX(-20px);
+    margin-top: 35px;
+    height: auto;
+}
+.about-svg1 {
+    position: absolute;
+    top: -81px;
+    left: -10px;
+}
+
+.mission-div1 {
+    padding-top: 70px;
+    /* padding-bottom: 100px; */
+}
+.mission-text2 {
+    color: #313131;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 8px;
+    padding-right: 10px;
+}
+
+.about-kevin-profile-div11{
+    margin-top: 150px;
+}
+
+.about-profile-text1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+.about-profile-text2 {
+    color: #404040;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+.about-profile-text3 {
+    line-height: 24px;
+
+    justify-content: end;
+}
+
+.about-profile-pic1 {
+    margin-top: -100px;
+}
+.about-profile-div1 {
+    padding-top: 170px;
+    padding-bottom: 20px;
+}
+
+}

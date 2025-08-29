@@ -1,0 +1,94 @@
+.home-work-div1{
+padding-top: 80px;
+padding-bottom: 90px;
+background: #000;
+}
+
+.home-work-text1{
+color: #F1F1F1;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height:1.1; /* 383.333% */
+}
+
+.home-work-text2{
+color: #FFF;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.2; /* 191.667% */
+}
+
+
+.home-work-carddiv1{
+    padding: 22px;
+    background: #FFF;
+}
+
+.home-work-carddiv001{
+    margin-top: 60px;
+    row-gap: 30px;
+}
+
+
+
+.home-work-text3{
+color: #BE0B31;
+font-family: Inter;
+font-size: 12.5px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
+}
+
+.home-work-text4{
+color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
+}
+
+
+.home-work-carddiv2{
+    width: 34px;
+height: 34px;
+flex-shrink: 0;
+background: #BE0B31;
+display: flex;
+align-items: center;
+justify-content: center;
+/* position: absolute; */
+right: 0px;
+}
+
+
+.home-work-carddiv3{
+    margin-top: 25px;
+    /* width: 100%; */
+}
+
+
+.works-card-div001{
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px){
+
+.home-work-carddiv3 {
+    display: flex;
+   justify-content: center;
+} 
+
+}
